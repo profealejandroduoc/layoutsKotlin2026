@@ -10,6 +10,7 @@ import com.movil.manejolayouts.layouts.EjemploColumnas
 import com.movil.manejolayouts.layouts.EjemploFilas
 import com.movil.manejolayouts.layouts.Saludo
 import com.movil.manejolayouts.layouts.SaludoConNombre
+import com.movil.manejolayouts.layouts.ScaffoldEjemplo
 
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +23,8 @@ class MainActivity : ComponentActivity() {
             //EjemploColumnas()
             //EjemploFilas()
             //ColumnaFila()
-            EjemploBox()
+            //EjemploBox()
+            ScaffoldEjemplo()
         }
     }
 }
